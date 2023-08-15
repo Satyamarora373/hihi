@@ -1,0 +1,25 @@
+.credit-card-page {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: blue;
+  }
+  
+  /* Styling for the container of all components */
+  .credit-card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  /* Add media queries for responsive design */
+  @media screen and (max-width: 768px) {
+    .credit-card-container {
+      grid-template-columns: 1fr;
+    }
+  }
+  

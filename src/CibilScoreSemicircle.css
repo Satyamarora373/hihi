@@ -1,0 +1,22 @@
+.cibil-score-semicircle {
+  text-align: center;
+  margin: 20px;
+}
+
+.background-circle {
+  transform: rotate(-90deg);
+  transform-origin: center;
+}
+
+.progress-circle {
+  transform: rotate(-90deg);
+  transform-origin: center;
+  transition: stroke-dasharray 0.5s ease;
+}
+
+.score {
+  font-size: 24px;
+  font-weight: bold;
+  color: #555;
+  margin-top: 10px;
+}
